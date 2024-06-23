@@ -13,12 +13,10 @@ import re
 import matplotlib.pyplot as plt
 from collections import defaultdict
 
-# Global variable for the root window
 root = tk.Tk()
 root.title("Log Analyzer")
 root.geometry("400x200")
 
-# Patterns for different types of log messages
 patterns = {
     'malware': re.compile(r'malware|virus|trojan|ransomware', re.IGNORECASE),
     'file_tampering': re.compile(r'file tampering|unauthorized file modification', re.IGNORECASE),
@@ -29,7 +27,6 @@ patterns = {
     'data_leakage': re.compile(r'data leakage|data exfiltration|information leak', re.IGNORECASE)
 }
 
-# Remedies for each type of suspicious activity
 remedies = {
     'malware': "Remedy: Run a full system antivirus scan, isolate the affected systems, and update your antivirus software.",
     'file_tampering': "Remedy: Restore the affected files from backup, change file permissions, and monitor file integrity.",
@@ -40,7 +37,6 @@ remedies = {
     'data_leakage': "Remedy: Identify the source of the leak, implement data loss prevention solutions, and review data access policies."
 }
 
-# Function to analyze log file and generate the report
 def analyze_log_file(log_file):
     suspicious_activity = defaultdict(int)
     with open(log_file, 'r') as f:
@@ -50,11 +46,10 @@ def analyze_log_file(log_file):
                     if pattern.search(line):
                         suspicious_activity[activity] += 1
             except Exception as e:
-                pass  # Ignore lines that cause errors
+                pass 
 
     return suspicious_activity
 
-# Function to save the analysis report
 def save_report(log_file, suspicious_activity):
     report_file = log_file.replace('.log', '_output.txt')
     with open(report_file, 'w') as f:
@@ -66,7 +61,6 @@ def save_report(log_file, suspicious_activity):
             f.write('No suspicious activity detected.\n')
     return report_file
 
-# Function to plot the bar graph if suspicious activity is detected
 def plot_suspicious_activity(log_file, suspicious_activity):
     if not suspicious_activity:
         return None
@@ -83,7 +77,6 @@ def plot_suspicious_activity(log_file, suspicious_activity):
     plt.savefig(graph_file)
     return graph_file
 
-# Function to run the analysis and display the results
 def run_analysis():
     log_file = filedialog.askopenfilename(title="Select Log File", filetypes=[("Log Files", "*.log")])
     if not log_file:
@@ -99,11 +92,9 @@ def run_analysis():
 
     messagebox.showinfo("Analysis Complete", result_message)
 
-# Function to quit the application
 def quit_application():
     root.quit()
 
-# Function to create the GUI
 def create_gui():
     global root
     tk.Label(root, text="Log Analyzer Tool", font=("Helvetica", 16)).pack(pady=20)
