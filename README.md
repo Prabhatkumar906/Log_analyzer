@@ -69,7 +69,6 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
 Here is an example usage of the tool:
 
 ![Log Analyzer Tool](images/image_1.png) 
-![Log Analyzer Tool](images/image_3.png)
 
 After selecting a log file and running the analysis, you will see the detected issues and recommended actions with a bar graph.
 
