@@ -79,4 +79,4 @@ After selecting a log file and running the analysis, you will see the detected i
 - **Integration with SIEM**: Integrate with Security Information and Event Management (SIEM) systems for advanced threat detection and incident response.
 - **Multi-format Log Support**: Support for additional log formats and sources.
 
-![Log Analyzer Tool](images/logo.png)
+![Log Analyzer Tool](images/Logo.png)
