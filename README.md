@@ -21,7 +21,7 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
 
 ## Installation
 
-## Clone the repository:
+### Clone the repository:
 
     git clone https://github.com/your_username/log_analyzer_tool.git
     cd log_analyzer_tool
