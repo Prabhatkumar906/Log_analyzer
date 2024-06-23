@@ -9,7 +9,7 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
 - Analyze log files for various suspicious activities.
 - Provides recommended actions for detected issues.
 - Generates a graphical visualization of detected issues.
-- Allows users to send the analysis report via email.
+- Easy-to-use graphical user interface for selecting log files and running scans.
 
 ## Requirements
 
