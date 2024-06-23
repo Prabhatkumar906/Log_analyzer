@@ -21,6 +21,13 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
 
 ## Installation
 
+Clone the repository:
+
+    ```bash
+    git clone https://github.com/your_username/log_analyzer_tool.git
+    cd log_analyzer_tool
+    ```
+    
 ### For macOS and Linux
 
 1. Ensure Python 3.x is installed. If not, install it:
