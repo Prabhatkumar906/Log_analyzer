@@ -38,6 +38,7 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
     ```
 2. Create a Virtual Environment:
 
+ ```bash
 For Linux/Macos:
 python3 -m venv venv
 source venv/bin/activate
@@ -45,6 +46,7 @@ source venv/bin/activate
 For Windows: 
 python3 -m venv venv
 venv\Scripts\activate   
+```
 
 2. Install the required libraries:
 
