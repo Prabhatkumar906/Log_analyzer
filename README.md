@@ -3,7 +3,7 @@
 The Log Analyzer Tool is a Python-based application designed to help you analyze log files for suspicious activities such as malware, unauthorized access, phishing attempts, and more. It supports detection of malware, file tampering, unauthorized access, and security breaches. The tool works on macOS, Windows, and Linux. The results are presented in a user-friendly GUI, and detailed reports and graphs are also generated.
 
 
-![Log Analyzer Tool](images/image_1.png) 
+![Log_analyzer](images/image_1.png) 
 
 ## Features
 
@@ -27,7 +27,7 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
 ### Clone the repository:
 
     git clone https://github.com/Rishikesh-khot/Log_analyzer.git
-    cd log_analyzer_tool
+    cd Log_analyzer
     
 ### For macOS and Linux
 
@@ -78,7 +78,7 @@ venv\Scripts\activate
 1. Run the application:
 
     ```bash
-    sudo python log_analyser.py
+    sudo python log_analyzer.py
     ```
 
 2. Using the GUI:
@@ -91,7 +91,7 @@ venv\Scripts\activate
 
 Here is an example of the tool's output in a bar graph:
 
-![Log Analyzer Tool](images/image_8.png) 
+![Log_analyzer](images/image_8.png) 
 
 After selecting a log file and running the analysis, you will see the detected issues and recommended actions with a bar graph.
 
@@ -101,4 +101,4 @@ After selecting a log file and running the analysis, you will see the detected i
 - **Custom Patterns**: Allow users to define custom patterns and rules for detecting suspicious activities.
 - **Integration with SIEM**: Integrate with Security Information and Event Management (SIEM) systems for advanced threat detection and incident response.
 
-![Log Analyzer Tool](images/Logo.png)
+![Log_analyzer](images/Logo.png)
