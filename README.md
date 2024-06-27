@@ -78,7 +78,7 @@ venv\Scripts\activate
 1. Run the application:
 
     ```bash
-    python log_analyser.py
+    sudo python log_analyser.py
     ```
 
 2. Using the GUI:
