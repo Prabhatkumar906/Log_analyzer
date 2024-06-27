@@ -91,7 +91,7 @@ venv\Scripts\activate
 
 Here is an example of the tool's output in a bar graph:
 
-![Log Analyzer Tool](images/image_5.png) 
+![Log Analyzer Tool](images/image_8.png) 
 
 After selecting a log file and running the analysis, you will see the detected issues and recommended actions with a bar graph.
 
