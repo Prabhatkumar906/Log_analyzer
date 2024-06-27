@@ -1,6 +1,7 @@
 # Log Analyzer Tool
 
-The Log Analyzer Tool is a Python-based application designed to help you analyze log files for suspicious activities. It supports detection of malware, file tampering, unauthorized access, and security breaches. The tool works on macOS, Windows, and Linux.
+The Log Analyzer Tool is a Python-based application designed to help you analyze log files for suspicious activities such as malware, unauthorized access, phishing attempts, and more. It supports detection of malware, file tampering, unauthorized access, and security breaches. The tool works on macOS, Windows, and Linux. The results are presented in a user-friendly GUI, and detailed reports and graphs are also generated.
+
 
 ![Log Analyzer Tool](images/image_1.png) 
 
@@ -8,6 +9,7 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
 
 - Analyze log files for various suspicious activities.
 - Provides recommended actions for detected issues.
+- Allows adding new patterns and corresponding remedies.
 - Generates a graphical visualization of detected issues.
 - Easy-to-use graphical user interface for selecting log files and running scans.
 
@@ -79,9 +81,11 @@ venv\Scripts\activate
     python log_analyser.py
     ```
 
-2. Browse and select the log file you want to analyze.
+2. Using the GUI:
+- Click on "Select Log File and Scan" to choose a log file.
+- The analysis results will be displayed, including any detected suspicious activities and their remedies.
+- The output report and graph will be saved in the same directory as the log file.
 
-3. After the analysis is complete, you will get the output of the scan.
 
 ## Example
 
@@ -96,6 +100,5 @@ After selecting a log file and running the analysis, you will see the detected i
 - **Real-time Monitoring**: Implement real-time monitoring of log files to detect suspicious activities as they happen.
 - **Custom Patterns**: Allow users to define custom patterns and rules for detecting suspicious activities.
 - **Integration with SIEM**: Integrate with Security Information and Event Management (SIEM) systems for advanced threat detection and incident response.
-- **Multi-format Log Support**: Support for additional log formats and sources.
 
 ![Log Analyzer Tool](images/Logo.png)
