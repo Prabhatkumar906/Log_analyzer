@@ -1,6 +1,6 @@
 # Log Analyzer Tool
 
-The Log Analyzer Tool is a Python-based application designed to help you analyze log files for suspicious activities such as malware, unauthorized access, phishing attempts, and more. It supports detection of malware, file tampering, unauthorized access, and security breaches. The tool works on macOS, Windows, and Linux. The results are presented in a user-friendly GUI, and detailed reports and graphs are also generated.
+The Log Analyzer Tool is a Python-based application designed to help you analyze log files for suspicious activities such as malware, unauthorized access, phishing attempts, file tampering, security breaches and more. The tool works on macOS, Windows, and Linux. The results are presented in a user-friendly GUI, and detailed reports and graphs are also generated.
 
 
 ![Log_analyzer](images/image_1.png) 
